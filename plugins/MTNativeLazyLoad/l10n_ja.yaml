@@ -1,0 +1,1 @@
+_PLUGIN_DESCRIPTION: '再構築のタイミングで、img タグに自動で loading 属性(loading="lazy")を追加するプラグインです。'

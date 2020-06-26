@@ -1,5 +1,5 @@
-# mt-plugin-NativeLazyLoad
-画像のネイティブLazy-loadをサポートするMovable Typeプラグインです。 
+# 画像のネイティブLazy-loadをサポートするMT7用プラグイン「Native LazyLoad」
+img タグにloading 属性(loading="lazy")を自動追加 して、Lazy Load（遅延読み込み）によるウェブページ高速化を支援するMovable Type用プラグインです。 
 
 ====
 

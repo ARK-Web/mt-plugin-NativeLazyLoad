@@ -46,6 +46,14 @@ sub _convert_lazyload {
 				attr => 'loading',
 				val  => $opts->{"loading"},
 				overwrite => $opts->{"overwrite"},
+				required_attrs => [ "width", "height" ],
+			},
+			{
+				tag  => 'iframe',
+				attr => 'loading',
+				val  => $opts->{"loading"},
+				overwrite => $opts->{"overwrite"},
+				required_attrs => [ "width", "height" ],
 			},
 		],
 	});

@@ -88,6 +88,18 @@ sub convert_attrs {
 			if (!$target->{"overwrite"} && $attrs->{$attr}) {
 				next;
 			}
+			if ($target->{"required_attrs"} && ref $target->{"required_attrs"} eq "ARRAY") {
+				my $check_ng  = 0;
+				foreach my $required_attr (@{$target->{"required_attrs"}}) {
+					if (!defined $attrs->{$required_attr}) {
+						$check_ng = 1;
+						last;
+					}
+				}
+				if ($check_ng) {
+					next;
+				}
+			}
 			$attrs->{$attr} = $target->{"val"};
 			$changed = 1;
 		}

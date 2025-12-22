@@ -1,4 +1,4 @@
-# 画像のネイティブLazy-loadをサポートするMT7用プラグイン「Native LazyLoad」
+# 「Native LazyLoad」画像のネイティブLazy-loadをサポートするMovable Type用プラグイン
 img タグにloading 属性(loading="lazy")を自動追加 して、Lazy Load（遅延読み込み）によるウェブページ高速化を支援するMovable Type用プラグインです。 
 
 ====
@@ -10,6 +10,7 @@ img タグにloading 属性(loading="lazy")を自動追加 して、Lazy Load（
 - ブロックタグないしはグローバルモディファイアにより、処理対象をきめ細かく指定できます。
 - スタティックパブリッシングに対応。ダイナミックパブリッシングは未対応ですが、ご要望が多ければ将来対応します。
 - MT7以降に対応しています。
+- 投稿フォーマット: HTML, リッチテキスト, ブロックエディタ からの投稿に対応。Markdown には非対応です。
 
 
 ## 使い方: ブロックタグ
